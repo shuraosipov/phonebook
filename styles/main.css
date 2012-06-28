@@ -1,0 +1,248 @@
+table.main
+{
+	background:white;
+	border:0px solid silver;
+	width:70%;
+	height:70%;
+	border-spacing:0px 0px;
+	
+	
+}
+
+tr.header
+{
+	border:0px solid silver;
+	
+	height:5%;
+}
+tr.main
+{
+	height:90%;
+	vertical-align:top;
+	
+	
+}
+tr.footer
+{
+	height:3%;
+	vertical-align:bottom;
+	color:silver;
+}
+td
+{
+	border:0px solid silver;
+}
+
+
+h1
+{
+	font-family:Century Gothic;
+	color:#7FB923;
+	font-weight:lighter;
+	
+	
+	
+}
+
+h5
+{
+	margin:15px;
+	font-family:Century Gothic;
+	color:black;
+	font-weight:lighter;
+	text-align:left;
+}
+
+body
+{
+	
+	background-color: #7FB923;
+	margin:20px 40px 20px 40px;
+	font-family:Courier New;
+	color:slategray ;
+	font-weight:bolder;
+	
+	
+}
+
+
+ div {
+	vertical-align:top;
+	margin:20px;
+	text-align:center;
+	background: white; 
+    padding: 5px; 
+    border-radius: 10px; 
+	
+	
+   }
+ div.simple
+ {
+	vertical-align:top;
+	margin:0px;
+	text-align:right;
+	background: white; 
+    padding: 0px; 
+	border:1px solid silver;
+}
+ 
+ div.inner {
+	vertical-align:top;
+	margin:20px;
+	text-align:center;
+	background: white;
+	color:black;
+    padding: 5px; 
+    border-radius: 50px;
+	border:1px solid #7FB923;	
+	
+   } 
+ a.title
+ {
+	text-decoration:none;
+ }
+   
+ a
+ {
+	color:#7FB923;
+	text-decoration:underline;
+ }
+ 
+ a:hover
+ {
+	color:black;
+	text-decoration:none;
+ }
+ 
+input[type=submit]
+{
+	background-color: #7FB923;
+    color: white;
+    margin: 0 0 0 0px;
+    border: 1px solid silver;
+	font-weight:bolder;
+	padding-top:6px;
+	padding-bottom:6px;
+	border-radius:10px;
+
+	
+}
+input.submit
+{
+	background-color: #7FB923;
+    color: white;
+    margin: 0 0 0 0px;
+    border: 1px solid silver;
+	font-weight:bolder;
+	padding-top:6px;
+	padding-bottom:6px;
+	border-radius:10px;
+}
+
+input.submit:hover
+{
+
+background-color: #7FCC23;
+} 
+	
+input[type=submit]:hover
+{
+
+background-color: #7FCC23;
+} 
+
+
+input.edit
+{
+	background-color: silver;
+    color: white;
+    margin: 0 0 0 0px;
+    border: 0px solid white;
+	font-weight:bolder;
+	padding-top:6px;
+	padding-bottom:6px;
+	border-radius:0px;
+	box-shadow:0;
+	
+		
+}
+
+input.edit:hover
+{
+	background-color: #D3D3D3;
+    color: white;
+    margin: 0 0 0 0px;
+    border: 0px solid white;
+	font-weight:bolder;
+	padding-top:6px;
+	padding-bottom:6px;
+	border-radius:0px;
+	box-shadow:0;
+		
+}
+
+#numberedit {
+	background-color:#FFFFFF;
+	color:#7FB923;
+	border:0;
+	text-decoration:underline;
+	
+}
+
+#numberedit:hover {
+	background-color:#FFFFFF;
+	color:black;
+	border:0;
+	text-decoration:none;
+	
+}
+
+
+
+
+table.spisok 
+{
+	
+	width:100%;
+	font-size:10pt	;
+	border-spacing:0px 0px;
+	color:black;
+	
+}
+
+tr.table
+{
+	font-weight:bolder;
+	
+	
+}
+
+ul
+{
+	padding-left:20px;
+}
+ 
+td.class
+{
+	vertical-align:top;
+	
+}
+
+tr.first
+{
+	font-style:italic ;
+	
+}
+
+td.all
+{
+	border-bottom:1px solid silver;
+}
+tr:hover.hvr
+{
+	background-color:#7FB923;
+}
+tr.hvr
+{
+	background-color:#F6F6F6;
+}
